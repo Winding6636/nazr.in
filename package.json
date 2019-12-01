@@ -4,5 +4,8 @@
     "postinstall": "yarn --cwd api && yarn --cwd client",
     "start": "yarn --cwd api start",
     "test": "yarn --cwd api test"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
